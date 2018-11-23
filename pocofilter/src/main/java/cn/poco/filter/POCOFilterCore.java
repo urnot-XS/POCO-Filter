@@ -25,9 +25,9 @@ public class POCOFilterCore {
     /**
      * 天空效果合成
      *
-     * @param dest A图
-     * @param sky B图(天空样图)
-     * @param color B图色值
+     * @param dest    A图
+     * @param sky     B图(天空样图)
+     * @param color   B图色值
      * @param opacity 混合透明度
      */
     public static Bitmap magicSky(Bitmap dest, Bitmap sky, int color, int opacity) {
@@ -51,7 +51,7 @@ public class POCOFilterCore {
     /**
      * 模拟毛玻璃
      *
-     * @param dest 透明    颜色 |   |
+     * @param dest   透明    颜色 |   |
      * @param colors - 0x ** ******
      */
     public static Bitmap fakeGlass(Bitmap dest, int colors) {
@@ -82,7 +82,7 @@ public class POCOFilterCore {
     /**
      * 模拟毛玻璃
      *
-     * @param radius 高斯模糊半径, 与模糊百分比有关
+     * @param radius       高斯模糊半径, 与模糊百分比有关
      * @param nativeColors 传入底层函数的颜色, 备注：有时会没效果, 一般传0x00000000或overlayColor
      * @param overlayColor 模糊后叠加的颜色, 颜色前2位是透明度, 后6位是颜色值
      */

@@ -20,7 +20,7 @@ public class POCOCompositor {
 
     /**
      * 合成两张图片
-     *
+     * <p>
      * 可选的混合样式:
      * <pre>
      *      颜色加深
@@ -42,11 +42,11 @@ public class POCOCompositor {
      *      正常
      * </pre>
      *
-     * @param destA A图
-     * @param maskB B图
-     * @param inverse A, B图反色选项
+     * @param destA     A图
+     * @param maskB     B图
+     * @param inverse   A, B图反色选项
      * @param composite 混合样式
-     * @param opacity 混合透明度(0-255)
+     * @param opacity   混合透明度(0-255)
      */
     public static Bitmap composite(Bitmap destA, Bitmap maskB, int inverse, int composite,
                                    int opacity) {

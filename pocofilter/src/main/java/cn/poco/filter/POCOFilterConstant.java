@@ -1,10 +1,5 @@
 package cn.poco.filter;
 
-/**
- * @author Mark Chan <a href="markchan2gm@gmail.com">Contact me.</a>
- * @version 1.0
- * @since 12/27/17
- */
 public interface POCOFilterConstant {
 
     interface FILTER {
